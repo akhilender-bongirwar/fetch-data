@@ -17,12 +17,12 @@ function App() {
     setLoad(false);
   };
   return (
-    <>
-      <h1>API CALL USING REACT</h1>
+    <div className="body">
+      <h1 className="heading">API CALL USING REACT</h1>
       <button onClick={handleClick}>GET USERS</button>
       {!load && <UserData users={users}/>}
       {load && <Loader /> }
-    </>
+    </div>
   );
 }
 

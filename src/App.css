@@ -1,0 +1,24 @@
+.body{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+}
+.heading{
+    /* text-align: center; */
+    padding: 1em;
+    margin: 0 auto;
+    color:deepskyblue;
+}
+button{
+    width: 10em;
+    padding: 1em;
+    outline: none;
+    background-color: yellowgreen;
+    margin: 0 auto;
+}
+
+button:hover{
+    background-color: green;
+    transform: scale(1.1);
+}
